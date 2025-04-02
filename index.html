@@ -23,17 +23,37 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="add.html">Add + Edit Product</a>
+              <a class="nav-link" href="add.html">Add + Edit Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="/register.html">Register</a>
+              <a class="nav-link" href="/register.html">Register</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="/login.html">Login</a>
+              <a class="nav-link" href="/login.html">Login</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <div class="container">
+      <h1 class="text-center my-2">Product List</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Image</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="listProduct">
+
+        </tbody>
+      </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

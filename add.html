@@ -37,7 +37,7 @@
     </nav>
     <div class="container">
       <h1 class="text-center my-2">Add & Edit Product</h1>
-      <form action="">
+      <form onsubmit="handleSubmit(event)" action="">
         <div class="mb-3">
           <label class="form-label" for="title"> Title</label>
           <input class="form-control" type="text" id="title" />
@@ -48,11 +48,11 @@
         </div>
         <div class="mb-3">
           <label class="form-label" for="price"> Price</label>
-          <input class="form-control" type="text" id="price" />
+          <input class="form-control" type="number" id="price" />
         </div>
         <div class="mb-3">
           <label class="form-label" for="category">Category</label>
-          <select class="form-select" aria-label="Default select example">
+          <select class="form-select" aria-label="Default select example" id="category">
             <option selected>Open this select menu</option>
             <option value="nam">Nam</option>
             <option value="nu">Nu</option>
@@ -63,5 +63,7 @@
         </div>
       </form>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="add.js"></script>
   </body>
 </html>

@@ -16,7 +16,7 @@ const renderRow = (
         <td>${product.category}</td>
         <td>
         <button class="btn btn-danger" onClick="deleteProduct(${product.id})"> Delete</button>
-        <button class="btn btn-primary"> Update</button>
+        <a class="btn btn-primary" href="/add.html?id=${product.id}"> Update</a>
         </td>
     </tr>
     `;

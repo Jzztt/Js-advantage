@@ -1,4 +1,19 @@
 {
-  "products": [],
+  "products": [
+    {
+      "title": "áo khoác nam",
+      "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg",
+      "price": 9999,
+      "category": "nam",
+      "id": 1
+    },
+    {
+      "title": "áo khoác nữ",
+      "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg",
+      "price": 999,
+      "category": "nu",
+      "id": 3
+    }
+  ],
   "users": []
 }
